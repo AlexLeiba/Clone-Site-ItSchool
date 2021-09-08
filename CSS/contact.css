@@ -1,0 +1,211 @@
+.sectia1{
+    
+    background-color: var(--bg-primary);
+    height: 50vh;
+
+    display: flex;
+    }
+
+    
+
+.sectia1 .contact{
+    color: var(--text-light);
+    
+}
+
+.sectia2 .informatii{
+    text-align: center;
+}
+.informatii h2{
+    color: var(--bg-primary);
+}
+
+.sectia2 .paragraf{
+    color: var(--text-dark);
+    font-size: var(--fs-medium);
+}
+.sectia2 .paragraf1 {
+    width: 20px;
+    height: auto;
+    color: var(--text-dark);
+
+}
+
+   .sectia2 .contact-list{
+   width: 100%;
+   padding: var(--spacing-medium);
+
+
+}
+.sectia2 ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sectia2 li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.sectia2 li, .paragraf  {
+    color:var(--text-dark);
+}
+
+
+.sectia2 .descriere{color: #8e8e8e}
+
+.sectia2 .paragraf{
+        display: flex;
+        align-items: center;
+        
+        
+}
+
+.contact-list li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: var(--spacing-small);
+
+}
+.contact-list a{color: #8e8e8e;
+}
+.contact-list a:hover{
+    color: var(--text-dark);
+}
+
+
+.formular{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: var(--spacing-small);
+        
+    }
+
+        .formular label{
+            margin-bottom: 5px;
+            margin-top: 16px;
+            font-size:var(--fs-medium) ;
+        }
+        .formular input{
+            color:#ddd ;
+            border-radius: 5px;
+            border-width: 1px;
+            border-color: #ddd;
+            border-style: solid;
+            padding: 5px;
+            
+        }
+        .formular textarea{
+            border-radius: 5px;
+            border-width: 1px;
+            border-color: #ddd;
+            border-style: solid;
+            padding:var(--spacing-small) ;
+            
+        
+        }
+
+        .formular input[type="submit"] {
+            
+            margin-top: 15px;
+            font-size:15px;
+            text-align: center;
+            color: var(--text-white);
+            background-color: var(--button-color);
+            padding: var(--spacing-small);
+            width: 100px;
+            
+        }
+        .formular input[type="submit"]:hover{
+            background-color:#73caac ;
+        }
+
+
+.display-flex{
+    display: flex;
+}
+
+/* Contactele-Online */
+
+.contactele-it img{
+    height:20px;
+    width: auto;
+    vertical-align:middle;
+}
+
+/*        Stilizarea sectiunea footerul */
+.footerul{
+    background-color: var(--text-primary);
+   
+}
+
+
+.footerul .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerul h3{
+    color:#fbb44c;
+}
+.footerul .coloana4 img{
+    height: 30px;
+    width: auto;
+}
+
+.footerul .coloana4{
+    position: relative;
+    top: 15px;
+}
+
+
+
+/* borderul vertical */
+.footerul .vertical-border{
+    position: relative;
+    top: 270px;
+    left: -10px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+   
+}
+.footerul .vertical-border2{
+    position: relative;
+    top: 255px;
+    left: -25px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+}
+
+/* Borderul din footer */
+
+.footerul .border-footer{
+   
+  position: relative;
+  bottom: 30px;
+ 
+  
+    width: 100%;
+    border-bottom:3px var(--text-light) dotted;
+    
+    padding: 10px;
+}
+/* footer */
+
+footer{
+    justify-content: space-around;
+}  
+
+footer p{
+  text-align: center;
+  font-size: 10px;
+}

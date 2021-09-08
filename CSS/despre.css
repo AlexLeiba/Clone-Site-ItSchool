@@ -1,0 +1,332 @@
+
+   
+.despre-noi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-primary);
+    height: 50vh;
+    width: 100%;
+}
+
+.despre-noi h1{
+    color: var(--text-light);
+}
+
+/* Sectia introducerea */
+.introducerea{
+    background-color:#dfedf5; ;
+}
+
+.introducerea .container{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    
+    
+
+}
+.introducerea .container p{
+    color: var(--bg-primary);
+    width:600px;
+    font-size: 15px;
+}
+
+.introducerea .container img{
+    width:270px;
+    height: auto;
+}
+
+/*    Sectiunea de poze1 */
+
+/* resetarea containerului */
+
+
+
+
+.container-image1{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+.container-image1 .container-wrapper{
+    width: calc(100% / 2);
+    height:600px;
+}
+
+
+.container-image1 img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+.container-image1 .citat1{
+    position: relative;
+    bottom: 500px;
+    left: 20px;
+    width: 200px;
+    height: auto;
+}
+.container-image1 .citat-h2{
+    color: #fbb44c;
+}
+
+/* Sectiunea de poze 2 */
+
+.container-image2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-image2 .container-wrapper2{
+    width: calc(100% / 4);
+    height: 300px;
+}
+
+.container-image2 img{
+    width: 100%;
+    height: 300px;
+}
+
+    
+
+.container-image2 .citat3, .container-image2 .citat2{
+    position: relative;
+    bottom: 280px;
+    left: 10px;
+    width: 130px;
+    font-size: 12px;
+}
+.container-image2 .citat3 h2, .container-image2 .citat2 h2{
+    color: var(--text-secondary);
+    font-size: 20px;
+}
+/* Sectiunea imagini 3 */
+
+.container-image3{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    margin-top: 0;
+}
+
+.container-image3 .container-wrapper3{
+    width: calc(100% / 4);
+    height: 300px;
+}
+
+.container-image3 img{
+    width: 100%;
+    height: 300px;
+}
+
+.container-image3 .citat4{
+    position: relative;
+    bottom: 280px;
+    left: 10px;
+
+    width: 130px;
+    font-size: 12px;
+}
+.container-image3 .citat4 h2{
+    color: var(--text-secondary);
+    font-size: 20px;
+
+}
+
+.container-image3 .citat5{
+    position: relative;
+    bottom: 280px;
+    left: 10px;
+
+    width: 130px;
+    font-size: 12px;
+}
+
+.container-image3 .citat5 h2{
+    color: var(--text-secondary);
+    font-size: 20px;
+
+}
+
+/* ........Images 4 */
+
+.container-image4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-wrapper4{
+    width: calc(100% / 2);
+    height: 600px;
+}
+
+.container-image4 img{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+/* .......image 5 */
+/* resetare container */
+.partenerii-nostri .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* .Partenerii nostri. */
+.partenerii-nostri{
+    background-color: #dfedf5;
+    width: 100%;
+}
+.container-image5{
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+
+.container-image5 .container-wrapper5{
+    width: cacl(100% / 5);
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.container-image5 img{
+    width: 100%;
+    height: 120px;
+    filter: grayscale(100);
+    
+}
+
+.partenerii-nostri h2{
+    text-align: center;
+    color: var(--text-primary);
+}
+
+
+.partenerii-nostri .container-image5 img{
+   margin-top: 100px;
+}
+.container-image5 img:hover{
+    filter: grayscale(0);
+}
+
+/* mobile */
+
+
+
+
+
+/* Animatiile */
+
+
+.images .image-9:hover, .image-7:hover , .image-0:hover ,.image-4:hover, .image-2:hover, .image-0:hover, .image-11:hover, .image-12:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 2s;
+    
+}
+.images .animatie{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.images .animatie2, .animatie3{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* Contactele-Online */
+
+.contactele-it img{
+    height:20px;
+    width: auto;
+    vertical-align:middle;
+}
+
+/*        Stilizarea sectiunea footerul */
+.footerul{
+    background-color: var(--text-primary);
+   
+}
+
+
+.footerul .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerul h3{
+    color:#fbb44c;
+}
+.footerul .coloana4 img{
+    height: 30px;
+    width: auto;
+}
+
+.footerul .coloana4{
+    position: relative;
+    top: 15px;
+}
+
+
+
+/* borderul vertical */
+.footerul .vertical-border{
+    position: relative;
+    top: 270px;
+    left: -10px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+   
+}
+.footerul .vertical-border2{
+    position: relative;
+    top: 255px;
+    left: -25px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+}
+
+/* Borderul din footer */
+
+.footerul .border-footer{
+   
+  position: relative;
+  bottom: 30px;
+ 
+  
+    width: 100%;
+    border-bottom:3px var(--text-light) dotted;
+    
+    padding: 10px;
+}
+
+/* footer */
+
+footer{
+    justify-content: space-around;
+}  
+
+footer p{
+  text-align: center;
+  font-size: 10px;
+}

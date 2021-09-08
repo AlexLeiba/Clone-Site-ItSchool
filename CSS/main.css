@@ -1,0 +1,256 @@
+:root{
+    /* Textul*/
+    --text-primary:#101d42;
+    --text-secondary:#fbb44c;
+    --text-dark:#131313;
+    --text-light:#eaeaea;
+    --text-white:#ffffff;
+
+    /* Culoarea de fundal */
+    --bg-primary:#141f4c;
+    --bg-secondary:#dfedf5;
+    --bg-white:#ffffff;
+    --bg-dark:#101d42;
+   
+    --button-color: #2bb686;
+    
+    /*Font size  */
+    --fs-large: 1rem;
+    --fs-medium: 0.875rem;
+    --fs-small: 0.75rem;
+   
+    /* Spacingul sitului */
+    --spacing-xl: 2.625rem;
+    --spacing-large: 1.75rem;
+    --spacing-medium: 1rem;
+    --spacing-small: 0.5rem;
+    --spacing-tiny: 0.25rem;
+
+    --mobile-logo-height: 45px;
+
+    
+}
+h1{
+    font-size: 3.5rem;
+   
+}
+h2{
+    font-size: 1.75rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+a {
+    display: block;
+    text-decoration: none;
+    ;
+}
+    /* Resetarea default */
+.container{
+    max-width: 1200px;
+    min-width: 320px;
+    
+    margin: auto;
+    /* centrarea continutul */
+    padding: var(--spacing-medium);
+}
+
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif ;}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+
+
+
+    /* Stilizarea navului */
+
+nav{
+        background-color: var(--bg-primary);
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;}
+
+nav img{
+        height: 60px;
+        width: auto;
+    }
+
+
+    
+
+   
+
+    /* .................. */
+    *{
+        box-sizing: border-box;
+    
+    }
+
+
+    /* Editarea UL */
+
+ul{
+    display: flex;
+       
+    }
+
+ul li{
+    padding: 15px;
+    color: var(--text-light);
+    font-size: var(--fs-small);
+    display: block; 
+    }
+
+ul li:hover{
+    color: var(--text-secondary);
+}
+
+
+    /* Drop arrow */
+
+nav .material-icons{
+    position: absolute;
+    top: 15px;
+    right: -4;
+
+    
+    font-size: 20px;
+    cursor: pointer;}
+
+    /* .......... */
+
+nav li a{
+    text-decoration: none;
+    color: var(--text-light);}
+
+nav a:hover{
+    color: var(--text-secondary)}
+
+    nav .drop-link{
+        position: relative;
+    }
+
+    /* Lista Drop */
+
+nav .lista-drop{
+    position: absolute;
+    top: 40px;
+    left: 15px;
+
+    background-color: var(--bg-dark); 
+    width: 150px;
+    padding: 15px;
+    z-index: 1;
+    text-transform: uppercase;
+    display: none;
+
+    }
+    /* Afisarea lista drop */
+nav .drop-link:hover .lista-drop{
+        display: block;
+    }
+
+    
+    
+
+   /* Stilizarea pentru mobil */
+nav .material-menu{display: none;
+   }
+
+@media(max-width:768px){
+nav ul{display: none;
+    }
+nav .material-menu{display: block;
+       
+    }
+nav .material-menu{color: var(--text-secondary);
+    
+    }
+nav .material-menu{position: relative;
+    left: 0px;
+    top: 2px;} 
+
+nav ul{display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    
+}
+
+    /* Stilizarea mainului si Welcome */
+
+
+.welcome{
+        background-color: var(--text-primary);
+        height: 100vh;
+}
+
+.welcome h1, p {color: var(--text-light);
+}
+
+/* Centram containerul pe verticala */
+
+.welcome .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.welcome img{ 
+    position: relative;
+    top: 7px;
+    left: 15px;
+    height: 24px;
+    width: auto;
+    margin-left: 20px;
+    
+}
+
+.welcome .spanul{
+    color: var(--text-secondary);
+}
+
+.welcome a{
+
+    position: relative;
+    top: 30px;
+    border: 2px solid #2bb686;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    font-size: 0.875rem;
+    padding: 20px;
+    color: var(--text-light);
+    background-color: var(--button-color);
+
+}
+
+.welcome a:hover{
+    background-color: transparent;}
+
+footer{
+    display: flex;
+    height: 100%;
+    margin:0;
+    background-color: var(--bg-dark);
+}
+
+
+
+

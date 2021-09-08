@@ -1,0 +1,250 @@
+.cursuri .container{
+    padding-left:  0;
+    padding-right: 0;
+}
+.cursuri h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cursuri .curs{
+    margin-bottom: 20px;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    padding: var(--spacing-tiny)
+
+
+}
+
+.cursuri .cursuri-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cursuri .green-line{
+    height: 5px;
+    background-color: var(--button-color);
+    border-radius: var(--spacing-tiny)
+}
+
+.cursuri-container .green-line,.cursuri .carduri,.cursuri h3{
+    margin-top: var(--spacing-large);
+}
+
+.curs h3{
+    font-weight: 400;
+    
+    
+}
+
+.curs .material-icons {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.cursuri .card2{
+    background-color: var(--text-secondary);
+    font-size: 13px;
+    padding: 5px;
+}
+.cursuri .card1{
+    
+    font-size:15px ;
+}
+
+/* Impachetarea elementelor si spatiile intre ele */
+.cursuri .curs-wrapper{
+    width: calc(100% / 3) ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Stilizarea pe mobil */
+@media(max-width:800px){
+    .cursuri .curs-wrapper{width: 50%;
+    }
+}
+
+@media(max-width:450px){
+    .cursuri .curs-wrapper{
+        width: 100%;
+    }
+}
+
+                 /* sectiunea despre noi              */
+.despre-noi .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.despre-noi .paragraf-h2{
+    text-align: center;
+    color: var(--text-dark);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.despre-noi{
+    background-color: var(--bg-secondary);
+}
+
+.despre-noi .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+
+ 
+
+/* Impachetarea  despre noi*/
+
+.despre-noi .despre-wrapper{
+    width: calc(100% / 3);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.despre-noi img{
+    width: 100%;
+    height: auto;
+    
+ 
+}
+
+
+
+/* Stilizarea pe mobil */
+@media(max-width:800px){
+    .despre-noi .despre-wrapper{width: 50%;
+    }
+}
+
+@media(max-width:450px){
+    .despre-noi .despre-wrapper{
+        width: 100%;
+    }
+}
+
+
+/*            Partenerii */
+
+
+.parteneri h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.parteneri .parteneri-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    
+
+}
+
+.parteneri .parteneri-wrapper{
+    width: 100px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: var(--spacing-large);
+}
+
+.parteneri img{
+    width: 100%;
+    height: auto;
+    
+    filter: grayscale(100%);
+}
+.parteneri img:hover{
+    filter:grayscale(0);
+}
+
+/* Contactele-Online */
+
+.contactele-it img{
+    height:20px;
+    width: auto;
+    vertical-align:middle;
+}
+
+/*        Stilizarea sectiunea footerul */
+.footerul{
+    background-color: var(--text-primary);
+   
+}
+
+
+.footerul .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerul h3{
+    color:#fbb44c;
+}
+.footerul .coloana4 img{
+    height: 30px;
+    width: auto;
+}
+
+.footerul .coloana4{
+    position: relative;
+    top: 15px;
+}
+
+
+
+/* borderul vertical */
+.footerul .vertical-border{
+    position: relative;
+    top: 270px;
+    left: -10px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+   
+}
+.footerul .vertical-border2{
+    position: relative;
+    top: 255px;
+    left: -25px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+}
+
+/* Borderul din footer */
+
+.footerul .border-footer{
+   
+  position: relative;
+  bottom: 30px;
+ 
+  
+    width: 100%;
+    border-bottom:3px var(--text-light) dotted;
+    
+    padding: 10px;
+}
+
+/* footerul */
+
+footer{
+    justify-content: space-around;
+}  
+
+footer p{
+  font-size: 10px;
+}

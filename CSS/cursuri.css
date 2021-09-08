@@ -1,0 +1,257 @@
+
+
+.introducere {
+    width: 100%;
+    height: 50vh;
+    background-color:#101d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducere h1{
+    color: var(--text-light);
+}
+
+.container .paragrafH2 {
+    color: var(--text-primary);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;}
+
+.programe .container-card{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    margin: 0;
+    
+    
+}
+.programe .card-wrapper{
+    width: calc(100%/3);
+    height:auto ;
+    padding-right: 10px;
+    padding-left:10px ;
+    margin-bottom: 20px;
+    
+    
+}
+
+/*for mobile card wrapper */
+@media(max-width:750px){
+    .programe .card-wrapper{
+        width: calc(100%/2);
+       
+        
+        
+    }
+}
+
+@media(max-width:500px){
+    
+        .programe .card-wrapper{
+            width: calc(100%);
+            
+            
+            
+        }
+}
+
+@media(max-width:550px){
+    .introducere h1{
+        font-size: 30px;
+    }
+}
+
+.programe .cardul{
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.programe img{
+    width: 100%;
+    height: auto;
+}
+
+.card-iconite .bagaj, .timpul, .calendar, .cardul p, .cardul h3{
+    color: #636363 ;
+
+}
+
+.card-iconite .certificare-it{
+    padding: 2.5px;
+}
+
+.card-iconite img{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 6px;
+    
+}
+.programe .material-icons{
+    vertical-align: middle;
+}
+
+.programe .buton{
+    width:98px ;
+    background-color: #2bb686;
+    padding: 5px;
+    color: var(--text-light);
+    border-radius: 5px;
+    text-align: center;
+    font-size:15px ;
+
+  
+    
+}
+
+
+
+.programe .buton, .programe p, .bagaj, .timpul, .calendar, .programe h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.programe .buton:hover{
+    background-color: #55c9a0;
+}
+
+.programe .adobe{
+    
+    
+    height: 22.8px;
+    width:auto;
+}
+
+                  /* Sectiunea alegerea cursului */
+
+.informatii-curs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ 
+     width: 100%;
+     background-color:#dfedf5;
+}
+
+.informatii-curs .paragraf-h2{
+    color: #101d42;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+    width: 650px;
+
+}
+.informatii-curs .h2-paragraf{
+    padding-top: 50px;
+    color: var(--text-primary);
+}
+
+
+.informatii-curs .buton1{
+    width: 200px;
+    background-color:#2bb686 ;
+    color: var(--text-light);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+    
+    
+
+}
+.informatii-curs .buton1:hover{
+    background-color:#55c9a0 ;
+}
+
+/* Contactele-Online */
+
+.contactele-it img{
+    height:20px;
+    width: auto;
+    vertical-align:middle;
+}
+
+/*        Stilizarea sectiunea footerul */
+.footerul{
+    background-color: var(--text-primary);
+   
+}
+
+
+.footerul .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerul h3{
+    color:#fbb44c;
+}
+.footerul .coloana4 img{
+    height: 30px;
+    width: auto;
+}
+
+.footerul .coloana4{
+    position: relative;
+    top: 15px;
+}
+
+
+
+/* borderul vertical */
+.footerul .vertical-border{
+    position: relative;
+    top: 270px;
+    left: -10px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+   
+}
+.footerul .vertical-border2{
+    position: relative;
+    top: 255px;
+    left: -25px;
+
+    width:2px;
+    height: 230px;
+    background-color: var(--text-light);
+}
+
+/* Borderul din footer */
+
+.footerul .border-footer{
+   
+  position: relative;
+  bottom: 30px;
+ 
+  
+    width: 100%;
+    border-bottom:3px var(--text-light) dotted;
+    
+    padding: 10px;
+}
+
+/* footer */
+
+
+  footer{
+      justify-content: space-around;
+  }  
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
